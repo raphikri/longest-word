@@ -12,6 +12,7 @@ black = "*"
 
 [packages]
 requests = "*"
+flask = "*"
 
 [requires]
 python_version = "3.8"
