@@ -20,7 +20,7 @@ class TestGame(unittest.TestCase):
 
     def test_word_is_valid(self):
         new_game = Game()
-        new_game.grid = ['S', 'O', 'L', 'R', 'E', 'U', 'T', 'H']
+        new_game.grid = ['S', 'O', 'L', 'R', 'E', 'U', 'T', 'Q']
         self.assertEqual(new_game.is_valid('RESULT'), True)
         self.assertEqual(new_game.grid, ['S', 'O', 'L', 'R', 'E', 'U', 'T', 'Y'])
 
