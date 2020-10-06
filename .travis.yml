@@ -8,3 +8,5 @@ install:
   - pipenv install --dev
 script:
   - pipenv run nosetests
+before_install:
+  - sudo apt-get install -y python-enchant
